@@ -1,0 +1,6 @@
+what is static website ?
+   A website is called static when we create website and not change after create or can not modify anything else after create website.
+       ex: static website
+
+   
+   

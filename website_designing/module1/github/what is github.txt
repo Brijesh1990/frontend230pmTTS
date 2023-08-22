@@ -1,0 +1,10 @@
+what is github ?
+  github is a repository systems 
+  github is used to store local pc data on its server
+  github used repository where we stored data 
+
+  step 1: download git software
+  step 2: create account on github.com 
+  step 3: upload data using git software or gitbash on github.com server
+
+         commands to upload data on git server

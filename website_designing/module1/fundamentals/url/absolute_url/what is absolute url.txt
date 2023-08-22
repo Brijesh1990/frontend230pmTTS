@@ -1,0 +1,4 @@
+what is absolute URL ?
+     any url had open with homepage for any webiste i.e called absolute url;
+      
+ex: https://www.tops-int.com/

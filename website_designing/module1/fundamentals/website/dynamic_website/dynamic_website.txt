@@ -1,0 +1,7 @@
+what is static website ?
+   A website is called dynamic when we create website and change after create or  modify anything else after create website.
+       ex: dynamic website
+
+ 
+   
+   

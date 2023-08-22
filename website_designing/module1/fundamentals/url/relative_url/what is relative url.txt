@@ -1,0 +1,6 @@
+what is relative URL ?
+     any url had open with related webpages  for any webiste i.e called relative url;
+      
+ex: https://www.tops-int.com/front-end-developer-course
+    https://www.tops-int.com/web-development-course
+  

@@ -1,0 +1,8 @@
+what is URL ?
+   URL stands for universal resource locator.
+   any website open on broswers we have an URL.  
+
+     types of URL
+      a) absolute url
+      b) relative url
+    

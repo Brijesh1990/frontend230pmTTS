@@ -8,3 +8,9 @@ what is github ?
   step 3: upload data using git software or gitbash on github.com server
 
          commands to upload data on git server
+
+         1) git init
+         2) git add .
+         3) git commit -m '22-08-2023 all data'
+         4) git remote add origin https://github.com/Brijesh1990/frontend230pmTTS.git
+         5) git push -u origin master    

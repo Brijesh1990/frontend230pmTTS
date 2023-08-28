@@ -1,0 +1,6 @@
+what is web broswers ?
+  web broswers is a plateform interface where we search any information about website , web apps etc 
+
+  ex: firefox, chrome , IE , safari  etc. 
+       chrome (chrome provides many extentions)
+

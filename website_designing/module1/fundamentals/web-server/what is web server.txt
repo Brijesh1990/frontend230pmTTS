@@ -1,0 +1,5 @@
+server respond data come through client
+A server is setup of HUB that is connected with many clients
+client request to server and server respond to clients
+This all scenario is called client-server architecture
+

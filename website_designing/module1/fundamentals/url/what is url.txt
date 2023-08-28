@@ -3,6 +3,6 @@ what is URL ?
    any website open on broswers we have an URL.  
 
      types of URL
-      a) absolute url
-      b) relative url
+      a) absolute url (Home page or landing page)
+      b) relative url (corresponding open web pages url)
     

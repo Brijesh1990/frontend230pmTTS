@@ -1,0 +1,55 @@
+what is html ?
+ html stands hypertext for markup language
+ html is used to create a home page or  webpage for website.
+ html provides some tags to create an structures of webiste 
+ html first time release in 1986 by tim berner lee. 
+ html creats some tags encoded with <p> angular brackets.
+
+what is hypertext ?
+ hypertext is used to create a link or redirect one page to another page 
+ examples : <a href="about.html">About</a>
+
+what is markup ?
+ markup is used to interact with our borwsers and load on web broswers.
+ or 
+ markup meanse markup or add with many language to create its web pages i.e called markup language 
+
+        examples : php + html
+                   asp.net + html 
+                   java + html 
+                   python + html 
+
+
+
+
+  html file extension is .html or .html 
+html tag : 
+ tag create structure 
+ tags are two types 
+  a) paired tag  
+        ex: <p> </p> => paired tag 
+  b) unpaired  
+        ex: <hr> => unpaired 
+            <br> 
+            <p> 
+            <input>
+            <img>
+            <meta>
+            <link>
+
+
+html structure  :
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta>
+    <link>
+    <style></style>
+    <script></script>
+    <noscript></noscript>
+</head>
+<body>
+
+</body>    
+</html>

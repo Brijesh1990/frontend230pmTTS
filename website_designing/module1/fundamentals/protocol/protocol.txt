@@ -1,0 +1,15 @@
+what is protocol ?
+  protocol is used to set of rules there we apply protocol. 
+
+  ex. http , https, smtp, mime , pop 
+
+      http : hypertext transfer protocol => this is a text base communication protocol
+
+
+             http://www.krutionella.com/
+
+             Note : not secured on server
+
+     https : secured hypertext transfer protocol => this is a text base communication protocol
+
+           https://www.tops-int.com/

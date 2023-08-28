@@ -1,0 +1,4 @@
+domain : domain address the website details 
+
+        ex: .com , .ac.in , .info , .in
+        

@@ -1,0 +1,70 @@
+/* what is lastic layout
+   when we set width:em and height in also height:em that type of layout is called elastic layout
+   fixed layout is problems to create a webpage responsive
+
+   1p=1/16em;
+
+
+   */
+body 
+{
+    margin: 0em;
+    padding: 0em;
+    overflow-x: hidden;
+}
+.header 
+{
+    width: 85.3125em;
+    height: 7.5em;
+    background-color: aqua;
+}
+.navbar 
+{
+    width: 85.3125em;
+    height: 3.125em;
+    background-color: black;
+}
+.slider 
+{
+    width: 78.125em;
+    height: 21.875em;
+    margin-left: 3.4375em;
+    background-color: lightgray;
+}
+#content 
+{
+    width: 78.125em;
+    height: auto;
+    margin-left: 3.4375em;
+    margin-top: 2.5em;
+
+}
+.leftsidebar 
+{
+    width: 18.75em;
+    height: 21.875em;
+    background-color: cadetblue;
+    float: left;
+}
+.rightsidebar 
+{
+
+    width: 59.375em;
+    height: 21.875em;
+    background-color: chocolate;
+    float: left; 
+}
+.clearfix 
+{
+    clear: both !important;
+}
+
+.footer 
+{
+    width:  85.3125em;
+    height: 12.5em;
+    background-color: black;
+    color: white;
+    margin-top: 1.25em;
+
+}

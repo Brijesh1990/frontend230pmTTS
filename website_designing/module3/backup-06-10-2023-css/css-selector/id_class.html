@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        #header 
+        {
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding: 10px;
+            background-color: lightblue;
+            display: flex;
+            flex-direction: row;
+        }
+        #header:hover 
+        {
+            width: 100%;
+            height: auto;
+            border-bottom: solid 1px blue;
+        }
+        .logo 
+        {
+            width: 20%;
+            height: auto;
+            font-size: 25px;
+            margin-left: 5%;
+        }
+        .logo:hover 
+        {
+            width: 20%;
+            height: auto;
+            color: blue;
+        }
+        .search-box 
+        {
+            width: 50%;
+            height: auto;
+            font-size: 25px;
+        }
+        .search-box input 
+        {
+            width: 90%;
+            height: auto;
+            padding: 5px;
+        }
+        .social-media
+        {
+            width: 20%;
+            height: auto;
+            font-size: 25px;
+            letter-spacing: 3px;
+        }
+        .fa-facebook
+        {
+            color: blue;
+        }
+        .fa-twitter
+        {
+          color: lightskyblue; 
+        }
+        .fa-whatsapp
+        {
+          color: green;   
+        }
+        .fa-instagram
+        {
+            color: red;
+        }
+
+        #content
+        {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .box1 
+        {
+            width: 250px;
+            height: 250px;
+            background-color: lightgray;
+            margin: 5px;
+            padding: 15px;
+            margin-left: 2%;
+            margin-top: 2%;
+        }
+        .box1:hover 
+        {
+            width: 250px;
+            height: 250px;
+            background-color: cadetblue;
+            box-shadow: 2px 2px 2px 2px black;
+            transition: 0.1s ease all;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header start here -->
+    <section id="header">
+        <!-- logo start here -->
+        <div class="logo"><b>Flipkart</b></div>
+        <!-- search box start here -->
+        <div class="search-box">
+            <input type="text" name="search-box" placeholder="Search anything here...">
+        </div>
+        <!-- social media start here -->
+        <div class="social-media account">
+            <span class="fa fa-facebook"></span>
+            <span class="fa fa-twitter"></span>
+            <span class="fa fa-instagram"></span>
+            <span class="fa fa-whatsapp"></span>
+            &nbsp;&nbsp;&nbsp;         
+            <span class="fa fa-user-plus"></span>
+            <span class="fa fa-cart-plus">(5)</span>
+        </div>
+    
+    </section>
+
+    <!-- content start here -->
+    <section id="content">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </section>
+    
+</body>
+</html>

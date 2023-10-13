@@ -1,0 +1,153 @@
+@import url('font-face.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #c9e8e0;
+
+}
+#main 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.text-heading p 
+{
+    font-family: Dejavu-sans-regulars;
+    text-align: center;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: #4c897a;
+}
+.text-heading h1 
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 42px;
+    color: #4c897a;
+    font-family: Dejavu-sans;
+}
+#main p 
+{
+    font-family: Dejavu-sans-regulars;
+    text-align: center;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: #4c897a;
+}
+#main h1 
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 42px;
+    color: #4c897a;
+    font-family: Dejavu-sans;
+}
+.box1
+{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+}
+.box1 h2 
+{
+    color: #4c897a;
+    letter-spacing: 1px;
+}
+.box1 p 
+{
+    text-transform: lowercase !important;
+    font-size: 10px;
+    text-align: justify !important;
+}
+#btn 
+{
+    width: 100px;
+    height: auto;
+    background-color: #4c897a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* mobile device media query start here */
+/* mobile devices */
+@media only screen and (min-width:320px) and (max-width:480px)
+{    
+body 
+{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        background-color: #c9e8e0;
+    
+}    
+.text-heading p 
+{
+    font-family: Dejavu-sans-regulars;
+    text-align: center;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: #4c897a;
+}
+.text-heading h1 
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #4c897a;
+    font-family: Dejavu-sans;
+}
+
+#main 
+{
+    width: 80% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+ 
+}
+
+.box1
+{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 10%;
+    padding: 15px;
+   
+}
+.box1 h2 
+{
+    color: #4c897a;
+    letter-spacing: 1px;
+}
+.box1 p 
+{
+    text-transform: lowercase !important;
+    font-size: 10px;
+    text-align: justify !important;
+}
+}

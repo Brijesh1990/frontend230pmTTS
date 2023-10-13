@@ -1,0 +1,95 @@
+body 
+{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+#navbar ul li 
+{
+    display: inline-block;
+    padding: 0px 15px;
+}
+#navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+#about,#services,#feedback,#portfolio,#contact
+{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    padding: 25px;
+}
+#about hr,#contact-us hr 
+{
+    width: 20%;
+    height: auto;
+}
+
+/* pseudo class selector */
+#navbar a:hover 
+{
+color: white;
+background-color: red;
+padding: 5px 8px;   
+} 
+#navbar a:active
+{
+color: green;
+} 
+#navbar a:visited 
+{
+color: yellow;
+} 
+#navbar a:link
+{
+color: white;
+} 
+
+
+#contact-us
+{
+
+    width: 50%;
+    height: 430px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    padding: 25px;
+
+}
+/* pseudo element selector  */
+input[type="text"],select,textarea
+{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+
+}
+input[type="submit"]
+{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    background-color: black;
+    color: white;
+}

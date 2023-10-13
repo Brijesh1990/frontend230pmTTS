@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: lightgray;
+        }
+        fieldset
+      
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body>
+<form method="post" name="fm" action="welcome.html" enctype="multipart/form-data">
+<fieldset>
+    <legend align="center">Register here</legend>
+    <center>
+    <input type="text" name="fname" placeholder="Enter FirstName *" required>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="flame" placeholder="Enter LastName *" required>
+    <br><br>
+    <input type="text" name="email" placeholder="Enter Email *" required style="width: 92%;">
+    <br><br>
+    <input type="password" name="password" placeholder="Enter Password *" required>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="password" name="cpassword" placeholder="Enter Confirm Password *" required>
+    <br><br>
+    <input type="file" name="photo" placeholder="Enter Photo *" required style="width: 92%;">
+    <br><br>
+    <input type="text" name="mobile" placeholder="Enter Phone *" required style="width: 92%;">
+    <br><br>
+    <input type="date" name="dob" placeholder="Enter DOB *" required style="width: 92%;">
+    <br><br>
+    <select name="state" placeholder="Enter state *" required style="width: 92%;">
+       <option value="">-select state-</option>
+       <option value="">Gujrat</option>
+       <option value="">Madhya Pradesh</option>
+       <option value="">Uttar Pardesh</option>
+       <option value="">Rajsthan</option>
+       <option value="">Maharastra</option>
+       <option value="">Goa</option>
+       <option value="">Punjab</option>
+    </select>
+    <br><br>
+    <select name="state" placeholder="Enter state *" required style="width: 92%;">
+        <option value="">-select City-</option>
+        <option value="">Rajkot</option>
+        <option value="">Ahemdabad</option>
+        <option value="">Mumbai</option>
+        <option value="">Varansi</option>
+        <option value="">Junagad</option>
+        <option value="">Jaipur</option>
+        <option value="">Gaziabad</option>
+     </select>
+     <br><br>
+     <textarea name="address" placeholder="Enter Address *" required style="width: 92%;"></textarea>
+     <br><br>
+
+     <input type="submit" name="sub" value="Register">
+     <input type="reset" name="reset" value="Clear">
+
+    </center>
+
+</fieldset>
+</form>
+</body>
+</html>

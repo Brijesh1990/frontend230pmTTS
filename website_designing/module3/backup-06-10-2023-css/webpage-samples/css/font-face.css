@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Dejavu-sans;
+    src: url('../fonts/DejaVuSans-Bold.ttf');
+}
+@font-face {
+    font-family: Dejavu-sans-regulars;
+    src: url('../fonts/DejaVuSans.ttf');
+}

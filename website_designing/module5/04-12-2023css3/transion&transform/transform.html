@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        #header 
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 10px;
+            background-color: cornflowerblue;
+            display: flex;
+            flex-direction: row;
+        }
+        .logo 
+        {
+         width: 30%;
+         height: auto;
+         margin: 0px;
+         padding: 5px;
+         justify-content: space-evenly;
+         font-size: 35px;
+        }
+        .logo:hover 
+        {
+            -webkit-transition: 4s ease all;
+            -moz-transition: 4s ease all;
+            -o-transition: 4s ease all;
+            transition: 4s ease all;
+            color: white;
+            transition-delay: 2s;
+            font-size: 38px;
+        }
+
+        #content 
+        {
+            width: 80%;
+            height: auto;
+            margin: auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .box 
+        {
+            width: 90%;
+            height: 300px;
+            margin-top: 15%;
+            background-color: gray;
+            border-radius: 15px;
+            -webkit-transition: 2s ease all;
+            -moz-transition: 2s ease all;
+            transition: 2s ease all;
+            background: url('https://media.istockphoto.com/id/645961762/photo/dramatic-sky-clouds-and-sunlight-background.jpg?s=612x612&w=0&k=20&c=mWS-IJCaxS4nRfSl3HvB8B3Zy3oucBytuD4c9cE0ZL0=') no-repeat;
+            background-size: cover;
+        }
+        .box:hover 
+        {
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            transform: rotate(360deg);
+            border-radius: 50%;
+            background-color: white;
+            border: solid 10px gray;
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <div class="logo">Our fitness Logo</div>
+    </section>
+    
+    <section id="content">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </section>
+</body>
+</html>

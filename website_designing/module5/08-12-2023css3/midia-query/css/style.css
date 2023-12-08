@@ -1,0 +1,236 @@
+/* css varaibles : A css variables is used to load css as dynamic 
+  Css variables is used to stored data in single element 
+  css variables is work as function 
+  Function : A function is a block of code that can be used to completed any task i.e called function
+syntax :var(--propertyname,value)
+    --propertyname :required parameter
+    value : optional parameter 
+*/
+
+:root
+{
+
+--bg-success:green;
+--bg-info:skyblue;
+--bg-white:white;
+--bg-danger:red;
+--bg-secondary:lightgray;
+--bg-primary:blue;
+--bg-brown:brown;
+--text-danger:red;
+--text-info:skyblue;
+--text-white:white;
+--text-blue:blue;
+--text-dark:black;
+--margin:0px;
+--padding:0px;
+--font-family:verdana;
+--font-san-serif:sans-serif;
+--width:1000px;
+--min-width:800px;
+--height:auto; 
+--min-height:auto;   
+
+}
+body 
+{
+    margin: var(--margin);
+    padding: var(--padding);
+    background: var(--bg-secondary);
+}
+#main-section
+{
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--bg-white);
+  margin: auto;
+  padding: 5px;
+  margin-top: 5%;
+}
+
+
+#header 
+{
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--bg-brown);
+  color: var(--text-white);
+  margin: 0  auto;
+  padding:3px;
+}
+
+#menu 
+{
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--bg-secondary);
+  color: var(--text-white);
+  margin: 0px;
+  padding:3px;
+}
+
+#menu ul li 
+{
+  display: inline-block;
+  padding: 5px 15px;
+  color: var(--text-white);
+}
+
+#menu a 
+{
+  color: var(--text-dark);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#content 
+{
+  width: var(--width);
+  height: var(--height);
+  color: var(--text-dark);
+  margin: 0px;
+  padding:13px;
+  display: flex;
+  flex-direction: row;
+}
+#sidebar 
+{
+  width: var(--min-width);
+  height: var(--height);
+  color: var(--text-dark);
+  margin: 0px;
+  padding:13px;
+}
+
+#sidebar-menu 
+{
+  display: block;
+  padding: 5px 15px;
+  color: var(--text-white);
+}
+#sidebar-menu a 
+{
+  color: var(--text-dark);
+  text-decoration: none;
+  list-style-type: none;
+}
+#footer 
+{
+  width: var(--width);
+  height: var(--height);
+  height: 10vh;
+  background-color: var(--bg-brown);
+  color: var(--text-white);
+  padding: 0;
+}
+
+@media screen and (max-width:1024px)
+{
+#header 
+{
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--bg-brown);
+}
+#menu
+{
+  width: var(--width);
+  height: var(--height);
+ 
+}
+#content 
+{
+  width: var(--width);
+  height: var(--height);
+
+}
+#footer
+{
+  width: var(--width);
+  height: var(--height);
+
+}
+}
+
+@media screen and (max-width:810px)
+{
+  #header 
+{
+ width: 1000px;
+ height: auto;
+}
+#menu
+{
+  width: 1000px;
+  height: auto;
+ 
+}
+#content 
+{
+  width: 800px;
+  height: auto;
+
+}
+#footer
+{
+  width: 800px;
+  height: auto;
+}
+}
+
+
+@media screen and (max-width:510px)
+{
+  #header 
+  {
+   width: 100%;
+   height: auto;
+  }
+  #menu
+  {
+    width: 100%;
+    height: auto;
+   
+  }
+  #content 
+  {
+    width: 100%;
+    height: auto;
+    display: block;
+  
+  }
+  #footer
+  {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width:320px)
+{
+  #header 
+  {
+   width: 100%;
+   height: auto;
+  }
+  #menu
+  {
+    width: 100%;
+    height: auto;
+   
+  }
+  #content 
+  {
+    width: 100%;
+    height: auto;
+    display: block;
+  
+  }
+  #footer
+  {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+}

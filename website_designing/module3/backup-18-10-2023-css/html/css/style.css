@@ -1,0 +1,635 @@
+@import url('font-face.css');
+*
+{
+    font-family: lato-regular;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+#fashion-header
+{
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 5px;
+background-color: #f3f3f3 !important;
+display: flex;
+flex-direction: row;
+position: sticky;
+top: 0;
+z-index: 5 !important;
+}
+.free-shipping
+{
+width: 60%;
+height: auto;
+margin: 0px;
+padding: 25px 5px !important;
+margin-left: 4%;
+}
+.create-account
+{
+
+width: 40%;
+height: auto;
+margin: 0px;
+padding: 5px !important;
+}
+.create-account ul li 
+{
+    display: inline-block;
+    padding: 0px 15px !important;
+}
+.create-account a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.search-box input 
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 2%;
+    padding: 20px !important;
+    border-radius: 10px;
+}
+#fashion-navbar
+{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    background-color: #060001;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.logo
+{
+    width: 60%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+   
+}
+.logo span 
+{
+    font-size: 35px;
+    font-family: alex-brush !important;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 15%;
+}
+.nav 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+}
+.nav ul li 
+{
+    display: inline-block;
+    padding: 0px 18px;
+
+}
+.nav a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+#fashion-slider
+{
+    width: 100%;
+    height: 450px;
+    background: url('../images/slider.png') no-repeat;
+    background-size: 100% 450px;
+    position: relative;
+
+}
+.slider-text 
+{
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 8%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background:rgba(255,0,0,0.5);
+    position: absolute;
+}
+
+#fashion-content
+{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+.view-collection
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.collection-grid1,.collection-grid2
+{
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    /* box-shadow: 0px 0px 1px 1px lightgray; */
+}
+.collection-grid1 img 
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.collection-grid2 img 
+{
+    width: 80%;
+    height: 320px;
+    margin: 2px;
+    margin-left: 20%;
+}
+.shop-now{
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    background-color: transparent;
+    color: black;
+    font-size: 17px;
+}
+.items
+{ 
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 3%;
+    position: relative;
+}
+.items  h1 
+{
+   
+    height: auto;
+    position: relative;
+    border-bottom: double 3px lightgray;
+    line-height: 0.1em;
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.items h1 span 
+{
+  
+
+    background-color: #ffffff !important;
+    padding: 0px 20px;
+    color: gray;
+}
+.products-grid 
+{
+    width: 80%;
+    height: auto;
+  
+    
+}
+.product-grid-nav
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-left: 45%;
+   
+}
+.product-grid-nav  li
+{
+
+    display: inline-block;
+    padding: 5px 20px;
+}
+.product-grid-nav a 
+{
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+}
+.product-listing
+{
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+
+    /* border: solid 1px; */
+   
+}
+.product-list
+{
+    width: 100%;
+    height: auto;
+    margin: 5px !important;
+    padding: 15px;
+    /* border: solid 1px; */
+}
+.product-list img 
+{
+    width: 94%;
+    height: 320px;
+    margin: 5px !important;
+}
+.product-list h4 
+{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: gray;
+}
+.product-list span 
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: gray;
+}
+.fashion-offer
+{
+    width: 100%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 5%;
+    position: relative;
+}
+.fashion-offer:before, 
+.fashion-offer:after 
+{
+    width: 100% !important;
+    height: 350px;
+    content: '';
+    background-color: rgba(10, 0, 0, 0.4) !important;
+    position: absolute !important;
+    display: block !important;
+}
+.fashion-off1 
+{
+    width: 100%;
+    height: 350px;
+    background: url('../images/offer1.png') no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+.fashion-off2 
+{
+    width: 100%;
+    height: 350px;
+    background: url('../images/offer2.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.fashion-text
+{
+    position: absolute;
+    margin-left: 55%;
+    font-size: 45px;
+    color: white;
+    line-height: 0.1em;
+    margin-top: 10%;   
+}
+.fashion-text b 
+{
+    font-weight: 100 !important;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.fashion-text1
+{
+    position: absolute;
+    margin-left: 18%;
+    color: white;
+    line-height: 0;
+    font-size: 30px;
+    margin-top: 14%;   
+}
+.fashion-text1 b 
+{
+    font-weight: 100 !important;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.rotate-heading
+{
+    position: absolute;
+    transform: rotate(-90deg) !important;
+    font-size: 35px;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+}
+#load-more 
+{
+    width: 15% !important;
+    height: auto;
+    margin: auto;
+    margin-left: 40% !important;
+    border: none;
+    padding: 15px;
+    border: solid 1px;
+    background-color: white !important;
+    font-size: 17px;
+}
+
+.fashion-client-feedback
+{
+    width: 100%;
+    height: 400px;
+    background: url('../images/feedback.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    position: relative;
+    margin-top: 3%;
+}
+.fashion-client-feedback:before 
+{
+width: 100% !important;
+height: 400px !important;    
+position: absolute !important;
+content: '';
+background-color: rgba(10,0,0,0.7);
+display: block;
+
+}
+.client-feedback-text
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+    line-height: 01em;
+}
+.client-feedback-text q 
+{
+    text-align: center;
+    font-size: 68px;
+    color: #e13ed7 !important;
+    letter-spacing: 2px;
+    margin-left: 0%;
+}
+
+.client-feedback-text p 
+{
+    text-align: center;
+    font-size: 16px;
+    color: white !important;
+    letter-spacing: 2px;
+
+}
+.client-feedback-text img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.shop-by-brands img
+{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+#fashion-footer
+{
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    background-color: #1d1d1d;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.fashion-footer-navbar ul li 
+{
+    display: block;
+    padding: 5px 56px;
+}
+.fashion-footer-navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.fashion-footer-navbar input[type="text"]
+{
+    width: 250px;
+    height: auto;
+    padding: 8px;
+} 
+
+.fashion-footer-navbar input[type="submit"]
+{
+    width: 270px;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: #e13ed7;
+} 
+.fa-facebook,.fa-twitter,.fa-snapchat,.fa-youtube,.fa-whatsapp,.fa-google
+{
+    font-size: 32px !important;
+    letter-spacing: 20px;
+}
+
+.bottom-footer
+{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: black !important;
+}
+.bottom-footer p 
+{
+    margin-left: 3%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.cart-items,
+.login-items
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+}
+.cart-header,
+.login-header
+{
+    border: outset 1px lightgray;
+    padding: 10px;
+    border-bottom: solid 8px lightgray;
+}
+.cart-body,
+.login-body 
+{
+    border: outset 1px lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.cart-body img 
+{
+    width: 30%;
+}
+#btn-cart
+{
+    width: 200px;
+    height: auto;
+    padding: 15px 5px;
+    border: none;
+    background-color: #e13ed7;
+    color: white;
+}
+
+.login-content img
+{
+    width: 60%;
+    height: auto;
+    padding: 25px;
+    margin-left: 15%;
+
+}
+.login-form
+{
+    width: 50%;
+    height: auto;
+    padding: 25px;
+}
+.login-form input[type="text"],input[type="password"],select,textarea
+{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.login-form select
+{
+    width: 322px;
+    height: auto;
+    padding: 10px;
+}
+.login-form input[type="submit"]
+{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: #e13ed7;
+    color: white;
+}
+.login-form input[type="reset"]
+{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.facebook 
+{
+    font-size: 45px !important;
+    color: blue;
+
+}
+.google 
+{
+    font-size: 45px !important;
+    color: red;
+
+}
+
+
+
+/*all screen, print, hendheld, tv */
+/* min 100  100-... */
+/* max 100 0->100 */
+/* @media  (max-width:500px)  {
+.free-shipping{
+    background-color: red;
+}
+}
+@media  (min-width:500px)  {
+.free-shipping{
+    background-color: blue;
+}
+}
+@media  (min-width:768px)  {
+.free-shipping{
+    background-color: pink;
+}
+} */
+
+/* @media (max-width:1060px){
+    #user-email{
+        width: 100px;
+    }
+
+    #fashion-footer{
+
+    }
+
+
+}
+*/
+/* @media (max-width:500px){
+
+    
+    .create-account{
+        display: flex;
+flex-direction: column;
+
+    }
+} 
+@media  (max-width:1200px)  {
+/* .free-shipping{
+    background-color: brown;
+} */
+
+/* #fashion-header{
+    flex-direction: column;   
+        }
+}  */
+
+
+@media (min-width:300px) and (max-width:800px){
+.free-shipping span{
+    color: red;
+}
+}
+
+
+
+
+
+
+

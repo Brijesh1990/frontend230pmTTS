@@ -1,0 +1,168 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-bottom: solid 2px gray;
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;
+    position: relative;
+    position: static;
+    position: sticky;
+    position: fixed; */
+   
+   
+    /* position: fixed;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    top: 0; */
+       
+    position: sticky;
+    top: 0;
+    background-color: white; 
+
+    /*position: static; */
+    /* position: inherit; */
+    z-index: 5 !important;
+
+
+}
+
+.logo 
+{
+ width: 20%;
+ height: auto;
+ padding: 10px;
+}
+.logo span 
+{
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.search 
+{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+.search input 
+{
+    width: 96%;
+    height: auto;
+    padding: 8px;
+}
+.account
+{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+
+}
+.account button 
+{
+    width: 200px;
+    height: auto;
+    padding: 8px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 12%;
+}
+#content 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+
+.box 
+{
+    width: 85%;
+    height: 200px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+#slider 
+{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    /* background-color: lightgray; */
+    background: url('https://soliloquywp.com/wp-content/uploads/2016/10/multiple-image-slider-wordpress.png') no-repeat;
+    background-size: 100% 350px;
+    margin-top: 2%;
+    position: relative;
+
+}
+
+.slider-text
+{
+    width: 70% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding: 25px !important;
+    /* background:rgba(red,0,0,0.5) !important; */
+    background-color:rgba(15,0,5,0.5) !important;
+    color: white;
+    margin-left: 15% !important;
+    margin-top: 8% !important;
+    position: absolute;
+}
+
+#navbar 
+{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+}
+
+#navbar ul li 
+{
+    display: inline-block;
+    padding: 5px 15px;
+
+}
+#navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+.dropdown 
+{
+    position: relative;
+  
+}
+.dropdown-menu 
+{
+min-width: 280px !important;    
+margin: 0 !important;
+padding: 0 !important;
+display: none;
+position: absolute;
+background-color: black;
+z-index: 5;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}

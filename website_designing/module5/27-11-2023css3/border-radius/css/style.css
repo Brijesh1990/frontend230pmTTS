@@ -1,0 +1,114 @@
+/* body 
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 658px;
+    background: -webkit-linear-gradient(red,green,yellow);
+    background: -moz-linear-gradient(red,green,yellow);
+    background: -o-linear-gradient(red,green,yellow);
+    background: linear-gradient(red,green,yellow);
+} */
+
+
+/* 
+body 
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 658px;
+    background: -webkit-radial-gradient(red,green,yellow);
+    background: -moz-radial-gradient(red,green,yellow);
+    background: -o-radial-gradient(red,green,yellow);
+    background: radial-gradient(red,green,yellow);
+} */
+
+
+/* 
+body 
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 658px;
+    background: -webkit-linear-gradient(black,lightgray);
+    background: -moz-linear-gradient(black,lightgray);
+    background: -o-linear-gradient(black,lightgray);
+    background: linear-gradient(black,lightgray);
+} */
+
+
+
+/* 
+body 
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 658px;
+    background: -webkit-linear-gradient(left,black,lightgray);
+    background: -moz-linear-gradient(left,black,lightgray);
+    background: -o-linear-gradient(left,black,lightgray);
+    background: linear-gradient(to right,black,lightgray);
+} */
+
+
+
+body 
+{
+    background-color: lightgray;
+    width: 100%;
+    height: 658px;
+    background: -webkit-linear-gradient(left,black 50%,lightgray 50%);
+    background: -moz-linear-gradient(left,black 50%,lightgray 50%);
+    background: -o-linear-gradient(left,black 50%,lightgray 50%);
+    background: linear-gradient(to right,black 50%,lightgray 50%);
+}
+
+.photo 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+.photo img 
+{
+    width: 100%;
+    height: 350px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+.photo1 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    -webkit-border-radius:85px 0px 85px 0px;
+    border-radius:85px 0px 85px 0px;
+}
+.photo1 img 
+{
+    width: 100%;
+    height: 350px;
+    -webkit-border-radius:85px 0px 85px 0px;
+    border-radius:85px 0px 85px 0px;
+}
+
+.photo2 
+{
+    width: 50%;
+    height: 650px;
+    margin: auto;
+    margin-top: 10%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}
+.photo2 img 
+{
+    width: 100%;
+    height: 650px;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+}

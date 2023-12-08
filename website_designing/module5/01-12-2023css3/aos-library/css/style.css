@@ -1,0 +1,49 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#main-content
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: lightblue;
+
+}
+
+.content 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 25px;
+}
+
+.content1 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: solid  8px white;
+    margin-top: 8%;
+}
+
+.content2 
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: solid  8px white;
+    margin-top: 8%;
+}

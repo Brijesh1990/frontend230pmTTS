@@ -1,0 +1,476 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+.logo 
+{
+    width: 30%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+.searchbox
+{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+.searchbox input 
+{
+    width: 90%;
+    height: auto;
+    padding: 8px;
+}
+.social-media
+{
+    width: 30%;
+    font-size: 16px;
+    padding: 10px;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.nav 
+{
+margin: 0;
+padding: 0;
+top: 0;
+}
+.nav li 
+{
+display: inline-block;
+padding: 15px 20px;
+}
+.nav a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.slider 
+{
+    width: 100%;
+    height: 400px;
+    background: url('../images/slider.jpg') no-repeat;
+    background-size: 100% auto;
+    position: relative;
+
+}
+.slider-text 
+{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgba(20,0,0,0.3);
+    padding: 20px;
+    color: white;
+}
+.content 
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.leftsidebar 
+{
+    width: 30%;
+    height: auto;
+}
+.leftsidebar h1 
+{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.categories li 
+{
+    display: block;
+    padding: 10px 3px;
+    font-size: 17px;
+}
+.categories a 
+{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+.rightsidebar 
+{
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.product-grid 
+{
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+}
+.product-grid img 
+{
+    width: 80%;
+    height: 250px;
+}
+#fashion-footer
+{
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    background-color: #1d1d1d;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.fashion-footer-navbar ul li 
+{
+    display: block;
+    padding: 5px 56px;
+}
+.fashion-footer-navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.fashion-footer-navbar input[type="text"]
+{
+    width: 250px;
+    height: auto;
+    padding: 8px;
+} 
+
+.fashion-footer-navbar input[type="submit"]
+{
+    width: 270px;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: #e13ed7;
+} 
+.fa-facebook,.fa-twitter,.fa-snapchat,.fa-youtube,.fa-whatsapp,.fa-google
+{
+    font-size: 32px !important;
+    letter-spacing: 20px;
+}
+
+.bottom-footer
+{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: black !important;
+}
+.bottom-footer p 
+{
+    margin-left: 3%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* media query */
+
+/* for mobile device breakpoint of midea query */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    display: block;
+    padding: 15px;
+
+}
+
+.logo 
+{
+   width: 100%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.searchbox
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+.searchbox input 
+{
+    width: 90%;
+    height: auto;
+    padding: 8px;
+}
+
+.social-media 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.nav li 
+{
+display:block;
+padding: 5px 5px;
+}
+.slider 
+{
+    width: 100%;
+    height: 300px;
+    background: url('../images/slider.jpg') no-repeat;
+    background-size: 100% auto;
+    position: relative;
+
+}
+.slider-text 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: rgba(20,0,0,0.3);
+    padding: 10px;
+    color: white;
+}
+
+.content 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    /* grid-template-columns:auto; */
+}
+.leftsidebar 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+   
+}
+.leftsidebar h1 
+{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-size: 25px !important;
+}
+.categories li 
+{
+    display: block;
+    padding: 10px 3px;
+    font-size: 17px;
+}
+.categories a 
+{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+.rightsidebar 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+   
+}
+.rightsidebar h3 
+{
+    font-size: 15px !important;
+}
+.product-grid 
+{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+.product-grid img 
+{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+}
+
+
+#fashion-footer
+{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #1d1d1d;
+    margin-top: 4%;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: block; */
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.fashion-footer-navbar
+{
+    width: 100% !important;
+    height: auto;
+}
+.fashion-footer-navbar ul li 
+{
+    display: block !important;
+    padding: 5px 5px;
+}
+.fashion-footer-navbar a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.fashion-footer-navbar input[type="text"]
+{
+    width: 230px;
+    height: auto;
+    padding: 8px;
+} 
+
+.fashion-footer-navbar input[type="submit"]
+{
+    width: 250px;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: #e13ed7;
+} 
+.fa-facebook,.fa-twitter,.fa-snapchat,.fa-youtube,.fa-whatsapp,.fa-google
+{
+    font-size: 28px !important;
+    letter-spacing: 15px;
+}
+
+.bottom-footer
+{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: black !important;
+}
+.bottom-footer p 
+{
+    margin-left: 1%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+}
+
+/* tablet breakpoint of midea query*/
+@media only screen and (min-width:481px) and (max-width:678px)
+{
+    body 
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: yellow;
+
+}
+
+.header 
+{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    display: block;
+    padding: 15px;
+
+}
+
+.logo 
+{
+   width: 100%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.searchbox
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+.searchbox input 
+{
+    width: 90%;
+    height: auto;
+    padding: 8px;
+}
+
+.social-media 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+   
+
+}
+    
+}
+/* laptop breakpoint of midea query */
+@media only screen and (min-width:679px) and (max-width:1024px)
+{
+    
+}
+/* desktop */
+
+/* large device breakpoint of midea query */
+@media only screen and (min-width:1025px) and (max-width:1440px)
+{
+    
+}

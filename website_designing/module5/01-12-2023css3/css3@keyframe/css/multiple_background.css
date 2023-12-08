@@ -1,0 +1,85 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: lightgray;
+    /* animation: alternate anim 5s;
+    animation-name: anim; */
+    /* -webkit-animation: alternate 5s anim;
+    -webkit-animation-name: anim;
+    -moz-animation: alternate 5s anim;
+    -moz-animation-name: anim;
+    animation: alternate 5s anim;
+    animation-name: anim; */
+
+    -webkit-animation: infinite 5s anim;
+    -webkit-animation-name: anim;
+    -moz-animation: infinite 5s anim;
+    -moz-animation-name: anim;
+    animation: infinite 5s anim;
+    animation-name: anim;
+    animation-delay: 5s;
+}
+
+@keyframes anim {
+
+    0% 
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color: red;
+
+
+    }
+    20%
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color: yellow;
+        
+    }
+    40%
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color: orange;
+        
+    }
+
+    60%
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color: black;
+        
+    }
+    80%
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color:green;
+        
+    }
+
+    100%
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        background-color: palevioletred;
+        
+    }
+}
